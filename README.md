@@ -13,3 +13,12 @@ This Python script fetches resume data from an API and generates a **customizabl
 - Install dependencies:
   ```bash
   pip install requests fpdf argparse
+
+## How to Run
+    ```bash
+    python resume_generator.py --name "Sample_resume" --font-size 14 --font-color "#FF5733" --background
+
+## Example Output
+A sample generated resume is included : [Sample Resume](Sample_resume.pdf)
+
+
