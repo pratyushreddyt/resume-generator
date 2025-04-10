@@ -44,7 +44,7 @@ def create_pdf(resume_data, font_size, font_color, background_color, name):
         return
 
     pdf.output(f"{name}_resume.pdf")
-    print(f"✅ Resume PDF generated: {name}_resume.pdf")
+    print(f" Resume PDF generated: {name}_resume.pdf")
 
 def get_args():
     parser = argparse.ArgumentParser(description="Generate a customizable resume PDF.")
